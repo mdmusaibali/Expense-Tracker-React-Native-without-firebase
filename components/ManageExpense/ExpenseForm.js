@@ -21,7 +21,6 @@ function ExpenseForm({ submitButtonLabel, onCancel, onSubmit, defaultValues }) {
       isValid: true,
     },
   });
-
   function inputChangedHandler(inputIdentifier, enteredValue) {
     setInputs((curInputs) => {
       return {
